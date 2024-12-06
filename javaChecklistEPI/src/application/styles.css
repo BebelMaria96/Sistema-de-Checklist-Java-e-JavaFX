@@ -1,0 +1,148 @@
+/* Define o estilo geral da aplicação */
+.root {
+    -fx-font-family: "Arial", sans-serif; /* Fonte padrão */
+    -fx-font-size: 14px; /* Tamanho do texto */
+    -fx-background-color: #FFFFFF; /* Fundo branco */
+}
+
+/* Layout geral */
+.vbox, .grid-pane {
+    -fx-alignment: center; /* Centraliza o conteúdo */
+    -fx-padding: 20; /* Espaçamento interno */
+    -fx-spacing: 15; /* Espaçamento entre os elementos */
+}
+
+
+
+/* Rótulos */
+.label {
+    -fx-text-fill: #4B0082; /* Roxo escuro */
+    -fx-font-weight: bold; /* Negrito */
+    -fx-font-size: 14px; /* Tamanho do texto */
+}
+
+/* Campos de entrada (TextField e PasswordField) */
+.text-field, .password-field {
+    -fx-border-color: #8A2BE2; /* Roxo suave */
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 8; /* Espaçamento interno */
+    -fx-background-color: #FFFFFF; /* Fundo branco */
+    -fx-text-fill: #4B0082; /* Texto roxo escuro */
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #4B0082; /* Roxo mais escuro ao focar */
+}
+
+/* Botões */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4B0082, #8A2BE2); /* Gradiente roxo */
+    -fx-text-fill: white; /* Texto branco */
+    -fx-font-size: 16px; /* Tamanho do texto */
+    -fx-font-weight: bold; /* Negrito */
+    -fx-padding: 10 20; /* Espaçamento interno */
+    -fx-border-radius: 8px; /* Arredondamento das bordas */
+    -fx-background-radius: 8px;
+    -fx-cursor: hand; /* Cursor de mão ao passar o mouse */
+}
+
+/* Estilo do botão de logout */
+.logout-button {
+    -fx-background-color: #4b0082; /* Roxo escuro */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 15;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-pref-width: 80px; /* Largura fixa */
+    -fx-text-alignment: center;
+}
+
+.logout-button:hover {
+    -fx-background-color: #551a8b; /* Roxo mais claro ao passar o mouse */
+}
+
+.logout-button:pressed {
+    -fx-background-color: #3b0070; /* Roxo mais escuro ao clicar */
+}
+
+/* Botão genérico ao passar o mouse e ao pressionar */
+.button:hover {
+    -fx-background-color: #4B0082; /* Roxo mais escuro ao passar o mouse */
+}
+
+.button:pressed {
+    -fx-background-color: #551A8B; /* Roxo ainda mais escuro ao clicar */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0.3, 0, 1); /* Efeito de sombra */
+}
+
+/* Combobox */
+.combo-box {
+    -fx-border-color: #8A2BE2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-text-fill: #4B0082;
+}
+
+.combo-box:hover {
+    -fx-border-color: #4B0082;
+}
+
+/* Checkboxes */
+.check-box {
+    -fx-text-fill: #4B0082; /* Texto roxo escuro */
+    -fx-font-size: 14px;
+}
+
+/* Estilo para mensagens (erro ou sucesso) */
+.message {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-alignment: center;
+}
+
+.message.error {
+    -fx-text-fill: #FF0000; /* Vermelho */
+    -fx-background-color: rgba(255, 0, 0, 0.1); /* Fundo vermelho claro */
+}
+
+.message.success {
+    -fx-text-fill: #008000; /* Verde */
+    -fx-background-color: rgba(0, 128, 0, 0.1); /* Fundo verde claro */
+}
+
+/* Layout de telas específicas */
+
+/* Tela de login */
+.login-screen {
+    -fx-alignment: center;
+    -fx-spacing: 20; /* Espaçamento entre os elementos */
+}
+
+/* Tela de histórico */
+.history-list {
+    -fx-border-color: #8A2BE2;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-background-color: #FFFFFF;
+}
+
+/* Tela de registro */
+.register-screen {
+    -fx-alignment: top-left;
+    -fx-padding: 20;
+}
