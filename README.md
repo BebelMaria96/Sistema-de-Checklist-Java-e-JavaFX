@@ -1,5 +1,5 @@
-#Autor: Isabela Maria Gonçalves Cardoso
-#Email: isabelamaria.art@gmail.com
+## *Autor: Isabela Maria Gonçalves Cardoso*
+# *Email: isabelamaria.art@gmail.com*
 #LinkedIn: https://www.linkedin.com/in/isabela-maria-/
 ------------------------------------------------------------------------------------------
 
