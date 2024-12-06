@@ -17,7 +17,7 @@ public class InitialScreen {
     }
 
     public void start(Stage primaryStage) {
-        // Layout principal
+        // layout principal
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(10, 10, 10, 10));
         grid.setVgap(15);
