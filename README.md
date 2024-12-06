@@ -1,6 +1,6 @@
 ## *Autor: Isabela Maria Gonçalves Cardoso*
-# *Email: isabelamaria.art@gmail.com*
-#LinkedIn: https://www.linkedin.com/in/isabela-maria-/
+## *Email: isabelamaria.art@gmail.com*
+## *LinkedIn: https://www.linkedin.com/in/isabela-maria-/*
 ------------------------------------------------------------------------------------------
 
 # CheckList EPI - Sistema de Gestão de EPIs
